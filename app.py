@@ -60,7 +60,7 @@ def selecting():
     for player in records:
         response_string+="<tr>"
         for info in player:
-            response_string+="<td>{}</td}".format(info)
+            response_string+="<td>{}</td>".format(info)
         resonse_string+="</tr>"
     response_string+="</tables>"
     return response_string
